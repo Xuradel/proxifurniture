@@ -1,0 +1,121 @@
+[
+    {
+        "id": 1,
+        "name": "Red and White Cushion Chair",
+        "price": 65.5,
+        "image": "./imgs/chair.jpeg",
+        "type": "living-room"
+    },
+    {
+        "id": 2,
+        "name": "Simple minimalistic table",
+        "price": 45.9,
+        "image": "./imgs/table.jpg",
+        "type": "living-room"
+    },
+    {
+        "id": 3,
+        "name": "Black desktop night lamp",
+        "price": 50,
+        "image": "./imgs/lamp.jpg",
+        "type": "bedroom"
+    },
+    {
+        "id": 4,
+        "name": "Brown oak wooden nightstand",
+        "price": 75.5,
+        "image": "./imgs/nightstand.jpg",
+        "type": "bedroom"
+    },
+    {
+        "id": 5,
+        "name": "Outdoor maple table and chair's combo",
+        "price": 150.2,
+        "image": "./imgs/outdoortable.jpg",
+        "type": "outdoor"
+    },
+    {
+        "id": 6,
+        "name": "Outdoor lightbrown wooden bench",
+        "price": 68.9,
+        "image": "./imgs/bench.jpg",
+        "type": "outdoor"
+    },
+    {
+        "id": 7,
+        "name": "Black metal and glass office desk",
+        "price": 90.3,
+        "image": "./imgs/desktop.jpg",
+        "type": "home-office"
+    },
+    {
+        "id": 8,
+        "name": "White Vase plant for desktop",
+        "price": 50,
+        "image": "./imgs/deskplant.jpg",
+        "type": "home-office"
+    },
+    {
+        "id": 9,
+        "name": "Black dining table with chairs",
+        "price": 70.5,
+        "image": "./imgs/diningtable.jpg",
+        "type": "dining-room"
+    },
+    {
+        "id": 10,
+        "name": "Minimalistic coffee table",
+        "price": 45.6,
+        "image": "./imgs/diningtable2.jpg",
+        "type": "dining-room"
+    },
+    {
+        "id": 11,
+        "name": "White luxury cushion sofa",
+        "price": 135.2,
+        "image": "./imgs/sofa.jpg",
+        "type": "living-room"
+    },
+    {
+        "id": 12,
+        "name": "Queen antiquewhite bed",
+        "price": 120.8,
+        "image": "./imgs/bed.jpg",
+        "type": "bedroom"
+    },
+    {
+        "id": 13,
+        "name": "White nylon orthopedic chair",
+        "price": 90,
+        "image": "./imgs/chair2.jpg",
+        "type": "home-office"
+    },
+    {
+        "id": 14,
+        "name": "Wooden lightbrown bed/sofa",
+        "price": 88.9,
+        "image": "./imgs/bedsofa.jpg",
+        "type": "outdoor"
+    },
+    {
+        "id": 15,
+        "name": "Small wooden chair with cushion",
+        "price": 35.5,
+        "image": "./imgs/chair3.jpg",
+        "type": "dining-room"
+    },
+    {
+        "id": 15,
+        "name": "Minimalistic small white table 15% Off",
+        "price": 37.7,
+        "image": "./imgs/desk2.jpg",
+        "type": "clearance"
+    },
+    {
+        "id": 15,
+        "name": "Lightgray cushion chair 20% Off",
+        "price": 30.5,
+        "image": "./imgs/chair4.jpg",
+        "type": "clearance"
+    }
+]
