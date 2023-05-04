@@ -11,7 +11,7 @@ const Homepage = () => {
                 <div>
                 <h1>Luxury Modern Furniture At The Best Quality and Price.</h1>
                 <p>Provide you with premium class design and high-class materials at an affordable price.</p>
-                <a href="/proxifurniture" className='nav-link'><Link to='/products' className='nav-link'>
+                <a href="/proxifurniture" className='nav-link'><Link to='/proxifurniture/products' className='nav-link'>
                     <button className='home-button'>
                         Order now!
                     </button></Link></a>

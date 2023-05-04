@@ -40,8 +40,8 @@ const Header = () => {
                     <nav>
                         <ul className="nav-menu">
                             <li className='nav-item'><a href="#" className='nav-link'><Link to='/proxifurniture' className='nav-link'>Home</Link></a></li>
-                            <li className='nav-item'><a href="#" className='nav-link'><Link to='/about' className='nav-link'>About</Link></a></li>
-                            <li className='nav-item'><a href="#" className='nav-link'><Link to='/products' className='nav-link'>Store</Link></a></li>
+                            <li className='nav-item'><a href="#" className='nav-link'><Link to='/proxifurniture/about' className='nav-link'>About</Link></a></li>
+                            <li className='nav-item'><a href="#" className='nav-link'><Link to='/proxifurniture/products' className='nav-link'>Store</Link></a></li>
                         </ul>
                         <div className="hamburger">
                             <span className="bar"></span>

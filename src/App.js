@@ -13,8 +13,8 @@ function App() {
       <div className="App">
         <Routes>
           <Route path='/proxifurniture' element={<Homepage />} />
-          <Route path='/products' element={<Products />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/proxifurniture/products' element={<Products />} />
+          <Route path='/proxifurniture/about' element={<About />} />
         </Routes>
       </div>
     </ShoppingCartProvider>

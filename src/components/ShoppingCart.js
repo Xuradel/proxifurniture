@@ -1,10 +1,13 @@
-import { Offcanvas, Stack } from "react-bootstrap";
+import { Offcanvas, Stack, Button } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import CartItem from "./CartItem";
 import storeItems from "../data/items.json"
 
+
+
 export default function ShoppingCart({ isOpen }) {
     const { closeCart, cartItems } = useShoppingCart()
+
     return (
         <Offcanvas show={isOpen} onHide={closeCart} placement="end">
             <Offcanvas.Header closeButton>
@@ -21,8 +24,9 @@ export default function ShoppingCart({ isOpen }) {
                             const item = storeItems.find(i => i.id === cartItem.id)
                             return total + (item?.price || 0) * cartItem.quantity
                         },0
-                        )}
+                        ).toFixed(2)}
                     </div>
+                        {cartItems.length > 0 ? <Button className="checkout-button">Checkout</Button> : null}
                 </Stack>
             </Offcanvas.Body>
         </Offcanvas>

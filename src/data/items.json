@@ -105,14 +105,14 @@
         "type": "dining-room"
     },
     {
-        "id": 15,
+        "id": 16,
         "name": "Minimalistic small white table 15% Off",
         "price": 37.7,
         "image": "./imgs/desk2.jpg",
         "type": "clearance"
     },
     {
-        "id": 15,
+        "id": 17,
         "name": "Lightgray cushion chair 20% Off",
         "price": 30.5,
         "image": "./imgs/chair4.jpg",

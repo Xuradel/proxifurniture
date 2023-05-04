@@ -33,7 +33,7 @@ export default function CartItem({ id, quantity }) {
                     ${item.price}
                 </div>
             </div>
-            <div>${item.price * quantity}</div>
+            <div>${(item.price * quantity).toFixed(2)}</div>
             <Button variant="outline-danger" size="sm" onClick={() => removeFromCart(item.id)}>&times;</Button>
         </Stack>
     )

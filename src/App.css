@@ -284,7 +284,6 @@ input:not(:placeholder-shown) ~ .reset {
 .product-price h1{
   font-size: 1.5rem;
   font-family: "poppinsRegular";
-
 }
 .product-part1{
   display: flex;
@@ -384,6 +383,7 @@ input:not(:placeholder-shown) ~ .reset {
   align-items: center;
   gap:1rem;
   padding-top: 2rem;
+  flex-wrap: wrap;
 }
 .mini-nav-bar li{
   list-style: none;
@@ -442,9 +442,18 @@ input:not(:placeholder-shown) ~ .reset {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 10rem;
   gap:2rem;
+  padding-left: 15rem;
 }
+.about-text2{
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap:2rem;
+  padding-right: 15rem;
+}
+
 .about-text h1{
   font-family: "poppinsBold";
   font-size: 4rem;
@@ -453,23 +462,30 @@ input:not(:placeholder-shown) ~ .reset {
   font-family: "poppinsLight";
   font-size: 1.5rem;
 }
+.about-text2 h1{
+  font-family: "poppinsBold";
+  font-size: 4rem;
+}
+.about-text2 p{
+  font-family: "poppinsLight";
+  font-size: 1.5rem;
+}
 .about-image{
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 .about-image img{
-  max-width: 40rem;
-  border: solid 20px #FFC541;
+  max-width: 35rem;
+  border: solid 15px #FFC541;
   border-radius: 5px;
 }
 .about-middle{
   border: solid 2px blue;
 }
 .middle-image{
-  max-width: 110rem;
+  max-width: 90rem;
   border: solid 15px #E5503C;
   border-radius: 5px;
 }
@@ -494,14 +510,19 @@ input:not(:placeholder-shown) ~ .reset {
 @media (max-width: 850px) {
   .text-image{width: 30rem;} .hero-image{width: 20rem;} .about-image img{width: 25rem;}
   .about-text h1{font-size: 3rem;}.about-text p{font-size: 1.1rem;}.middle-image{width: 40rem;}
-  .about-text{padding: 2rem;}
+  .about-text{padding: 2rem;}.about-text2 h1{font-size: 3rem;}.about-text2 p{font-size: 1.1rem;}
 
 }
 @media (max-width: 665px) {
   .home-text h1{ font-size: 3rem;} .home-text p{font-size: 1.3rem;}.about-image img{width: 20rem;}
   .about-text h1{font-size: 2.5rem;}.about-text p{font-size: 1rem;}.middle-image{width: 35rem;}
+  .about-text2 h1{font-size: 2.5rem;}.about-text2 p{font-size: 1rem;}
 }
-
+@media only screen and (max-height: 970px){.about-image img{height: 45rem;}}
+@media only screen and (max-height: 900px){.about-image img{height: 40rem;}.middle-image{height: 35rem;}}
+@media only screen and (max-height: 800px){.about-image img{height: 40rem;}.middle-image{height: 33rem;}}
+@media only screen and (max-height: 700px){.about-image img{height: 35rem;}.middle-image{height: 31rem;}}
+@media only screen and (max-height: 600px){.about-image img{height: 30rem;}.middle-image{height: 28rem;}}
 @media only screen and (max-width: 1000px) {
   /* Hamburger menu */
 .navbar{
@@ -592,10 +613,14 @@ input:not(:placeholder-shown) ~ .reset {
   .home-hero-image{justify-content: center;width: 99%; } 
   .hero-image{width: 15rem; margin-right: 2rem;}
   .about-text h1{font-size: 2rem;}.about-text p{font-size: .8rem;}
+  .about-text2 h1{font-size: 2rem;}.about-text2 p{font-size: .8rem;}
   .about-combo{height: 70%;}
   .about-combo2{height: 70%;}
-  .about-image img{width: 12rem;   border: solid 5px #FFC541; }
-  .middle-image{ border: solid 5px #E5503C; margin: 4rem 0;  width: 22rem;}
+  .about-image img{width: 12rem; height: 25rem;  border: solid 5px #FFC541; }
+  .middle-image{ border: solid 5px #E5503C; margin: 4rem 0;  width: 22rem; height: 12rem;}
   .about-text{padding: 1rem;} .about-middle img{width: 25rem; }
-  .products-button{font-size: .5rem;}
+  .about-text2{padding: 1rem;} .about-middle img{width: 25rem; }
+  .products-button{font-size: .8rem;}
+  .product-name h1{  font-size: 1rem;  font-family: "poppinsBold"; }
+  .product-price h1{ font-size: 1rem;  font-family: "poppinsRegular"; }
 }

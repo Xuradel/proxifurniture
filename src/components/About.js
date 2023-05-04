@@ -13,7 +13,7 @@ const About = () => {
             </div>
                 <img src={require("../images/homeoffice.png")} className="middle-image" alt="homeOffice"></img>
             <div className="about-combo2">
-                <div className="about-text">
+                <div className="about-text2">
                     <h1>Where comfort meets <span className="color-text">style</span></h1>
                     <p>We believe in the importance of finding furniture that not only looks
                         great but also feels comfortable and welcoming.</p>
