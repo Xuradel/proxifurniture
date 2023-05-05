@@ -5,6 +5,7 @@ import Homepage from './components/Homepage';
 import About from './components/About';
 import Header from './components/Header';
 import { ShoppingCartProvider } from './context/ShoppingCartContext';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
           <Route path='/proxifurniture/about' element={<About />} />
         </Routes>
       </div>
+      <Footer/>
     </ShoppingCartProvider>
+
   );
 }
 
